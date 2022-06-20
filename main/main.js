@@ -154,7 +154,8 @@ const moreInfo = (pag, sun) => {
     let photos = obj.photos
     person__data[0].innerHTML = obj.name;
     person__data[1].innerHTML = obj.text
-    person__data[0].innerHTML = obj.tel;
+    person__data[2].innerHTML = obj.tel;
+    person__data[2].href = `tel:${obj.tel}`;
     person.classList.add('active')
     console.log(object__photo)
     for (photo of object__photo) {
@@ -184,20 +185,17 @@ const changeClass = (el) => {
                 `<section id="${mark.id}" class="${num - 1}"> 
                 <p class="pop__into">${mark.name}</p>
                 <p>${mark.text}</p>
-                <p>${mark.tel}</p>
-                <button class="pop__btn">БОЛЬШЕ</button>
+                <a href="tel:${mark.tel}">${mark.tel}</a>
                 </section>`);
         }
     }
     console.log(markerGroup)
 }
 var _bindPopupClick = function (e) {
-    console.log(e.popup._wrapper.children[0].children[0].children[3])
-    // console.log(e.popup._wrapper.children[0].children[0].className)
     let sun = e.popup._wrapper.children[0].children[0].id;
     let pag = e.popup._wrapper.children[0].children[0].className;
     if (e.popup) {
-        e.popup._wrapper.children[0].children[0].children[3].addEventListener('click', moreInfo(pag, sun));
+        e.popup._wrapper.addEventListener('click', moreInfo(pag, sun));
     }
 }
 map.on('popupopen', _bindPopupClick)
