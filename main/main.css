@@ -226,7 +226,7 @@ body .main__container .container #map {
   height: 600px;
 }
 
-body .main__container .container #map .popup {
+body .main__container .container #map section {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -244,12 +244,12 @@ body .main__container .container #map .popup {
   background-color: #ece7e2;
 }
 
-body .main__container .container #map .popup .pop__into {
+body .main__container .container #map section .pop__into {
   margin: 0;
   font-weight: 800;
 }
 
-body .main__container .container #map .popup .pop__btn {
+body .main__container .container #map section .pop__btn {
   background-color: #CB2B3E;
   color: #FDDCC4;
 }

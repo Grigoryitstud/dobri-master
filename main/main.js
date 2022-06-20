@@ -40,43 +40,43 @@ const redIcon = new L.Icon({
 });
 const coordinates = [
     Build = [
-        { id: "32", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.396, 31.074], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'], img: '../img/gomel.jpg', text: 'бетонные работы' },
-        { id: "43", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.375, 31.009], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'сантехника' },
-        { id: "2", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.425, 30.999], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'прораб' },
-        { id: "13", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.385, 30.884], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'электрика' },
-        { id: "16", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.415, 30.947], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'кровля' },
-        { id: "19", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.435, 30.964], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'молярные работы' }
+        { id: "32", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.396, 31.074], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'бетонные работы' },
+        { id: "43", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.375, 31.009], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'сантехника' },
+        { id: "2", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.425, 30.999], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'прораб' },
+        { id: "13", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.385, 30.884], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'электрика' },
+        { id: "16", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.415, 30.947], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'кровля' },
+        { id: "19", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.435, 30.964], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'молярные работы' }
     ],
     Car = [
-        { id: "1", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.425, 30.964], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'купить б/у авто' },
-        { id: "41", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.405, 31.039], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'замена масла' },
-        { id: "45", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.351, 31.057], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'помощь в подборе авто' },
-        { id: "18", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.445, 30.944], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'ремонт подвески' },
-        { id: "20", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.415, 30.984], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'разборка микроавтобусов' }
+        { id: "1", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.425, 30.964], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'купить б/у авто' },
+        { id: "41", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.405, 31.039], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'замена масла' },
+        { id: "45", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.351, 31.057], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'помощь в подборе авто' },
+        { id: "18", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.445, 30.944], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'ремонт подвески' },
+        { id: "20", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.415, 30.984], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'разборка микроавтобусов' }
     ],
     Beauty = [
-        { id: "31", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.428, 31.077], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'стоматолог' },
-        { id: "33", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.432, 31.134], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'стилист' },
-        { id: "42", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.385, 31.031], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'брови, ресницы' },
-        { id: "9", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.465, 31.034], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'стилист' },
-        { id: "11", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.459, 30.954], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'фитнес' },
-        { id: "15", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.405, 30.924], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'лечение ногтей' },
-        { id: "17", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.395, 30.960], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'стилист' }
+        { id: "31", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.428, 31.077], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'стоматолог' },
+        { id: "33", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.432, 31.134], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'стилист' },
+        { id: "42", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.385, 31.031], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'брови, ресницы' },
+        { id: "9", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.465, 31.034], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'стилист' },
+        { id: "11", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.459, 30.954], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'фитнес' },
+        { id: "15", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.405, 30.924], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'лечение ногтей' },
+        { id: "17", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.395, 30.960], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'стилист' }
     ],
     Travel = [
-        { id: "12", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.465, 30.969], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'рыбалка' },
-        { id: "14", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.475, 30.924], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'необычное' },
-        { id: "46", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.348, 30.989], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'шаурма' },
-        { id: "3", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.445, 30.974], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'кемпинг' },
-        { id: "6", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.489, 30.981], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'картинг' },
-        { id: "10", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.481, 31.014], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'туритстическое агенство' }
+        { id: "12", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.465, 30.969], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'рыбалка' },
+        { id: "14", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.475, 30.924], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'необычное' },
+        { id: "46", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.348, 30.989], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'шаурма' },
+        { id: "3", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.445, 30.974], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'кемпинг' },
+        { id: "6", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.489, 30.981], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'картинг' },
+        { id: "10", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.481, 31.014], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'туритстическое агенство' }
     ],
     Other = [
-        { id: "5", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.465, 30.994], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'бухгалтер' },
-        { id: "7", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.445, 31.014], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'полет в космос' },
-        { id: "4", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.445, 30.994], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'ремонт принтеров' },
-        { id: "8", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.465, 31.014], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'нарды ручной работы' },
-        { id: "44", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.359, 31.019], photos: ['../auto1.jpg', '../auto2.jpg', '../beauty1.jpg', '../beauty2.jpg', '../build1.jpg', '../build2.jpg', '../fishing.jpg', '../handmade.png', '../Streetfood.jpg'],  img: '../img/gomel.jpg', text: 'няня' }
+        { id: "5", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: goldIcon }, cord: [52.465, 30.994], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'бухгалтер' },
+        { id: "7", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.445, 31.014], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'полет в космос' },
+        { id: "4", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: greenIcon }, cord: [52.445, 30.994], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'ремонт принтеров' },
+        { id: "8", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.465, 31.014], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'нарды ручной работы' },
+        { id: "44", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.359, 31.019], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'няня' }
     ]
 ]
 const pagesContent = [
@@ -112,7 +112,7 @@ const pagesContent = [
     ]
 
 ]
-
+console.log(coordinates)
 const center = [52.4345, 30.9754]
 
 const map = L.map('map').setView(center, 12);
@@ -145,16 +145,20 @@ const changeSubClass = (el) => {
 for (link of sub__link) {
     link.addEventListener('click', link => changeSubClass(link))
 };
-const moreInfo = (el) => {
+const moreInfo = (pag, sun) => {
+    console.log(pag)
+    console.log(sun)
+    let obj = coordinates[pag].filter(el => el.id == sun)[0]
+    console.log(obj)
     let n = 0;
-    let name = el.target.name
-    let tel = el.target.tel
-    let text = el.target.text
-    let photos = el.target.photos
-    person__data[0] = name;
-    person__data[1] = text;
-    person__data[0] = tel;
+    let photos = obj.photos
+    person__data[0].innerHTML = obj.name;
+    person__data[1].innerHTML = obj.text
+    person__data[0].innerHTML = obj.tel;
+    person.classList.add('active')
+    console.log(object__photo)
     for (photo of object__photo) {
+        console.log(photo.src)
         photo.src = photos[n];
         n++
     };
@@ -170,25 +174,44 @@ const changeClass = (el) => {
     }
     header__links[num].classList.add("active")
     changePage(num);
+    // var markersLayer = L.featureGroup().addTo(map);
     if (num > 0) {
         for (mark of coordinates[num - 1]) {
             L.marker(mark.cord, mark.icon)
-            .addTo(markerGroup).
-            bindPopup(
-                `<div class="popup"> 
+                .addTo(markerGroup)
+                // .on('click', markerOnClick(mark))
+                .bindPopup(
+                `<section id="${mark.id}" class="${num - 1}"> 
                 <p class="pop__into">${mark.name}</p>
                 <p>${mark.text}</p>
                 <p>${mark.tel}</p>
                 <button class="pop__btn">БОЛЬШЕ</button>
-                </div>
-                `);
+                </section>`);
         }
     }
     console.log(markerGroup)
-    for (btn of pop__btn) {
-        btn.addEventListener('click', btn => moreInfo(btn))
-    };
 }
+var _bindPopupClick = function (e) {
+    console.log(e.popup._wrapper.children[0].children[0].children[3])
+    // console.log(e.popup._wrapper.children[0].children[0].className)
+    let sun = e.popup._wrapper.children[0].children[0].id;
+    let pag = e.popup._wrapper.children[0].children[0].className;
+    if (e.popup) {
+        e.popup._wrapper.children[0].children[0].children[3].addEventListener('click', moreInfo(pag, sun));
+    }
+}
+map.on('popupopen', _bindPopupClick)
+
+// function(el){
+//     console.log(el)
+//     person.classList.add('active')
+//     let n = 0;
+//     // object__photo[0].src = '../img/auto1.jpg';
+//      for (photo of object__photo) {
+//         photo.src = coordinates[0][0].photos[n];
+//         n++
+//     };
+// })
 for (link of header__links) {
     link.addEventListener('click', link => changeClass(link))
 };
