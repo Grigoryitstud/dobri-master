@@ -293,7 +293,7 @@ body .main__container .container .header .header__nav .header__subtitle .sub__li
 
 @media screen and (max-width: 480px) {
   body .main__container .container .header .header__nav .header__subtitle .sub__link {
-    font-size: 10px;
+    font-size: 9px;
     margin-left: 10px;
   }
 }
@@ -415,6 +415,14 @@ body .main__container .container .mainPages .icon .icon__logo {
   }
 }
 
+body .main__container .container .mainPages .icon .icon__inner {
+  display: none;
+}
+
+body .main__container .container .mainPages .icon .icon__inner.active {
+  display: block;
+}
+
 body .main__container .container .mainPages .icon .icon__info {
   border-radius: 680px;
   background-color: #63372f;
@@ -519,6 +527,7 @@ body .main__container .container .person .person__info .person__data {
   padding: 3px;
   border-radius: 10px;
   text-decoration: none;
+  text-align: center;
 }
 
 body .main__container .container .person .person__slider {
