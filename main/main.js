@@ -124,8 +124,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 const markerGroup = L.layerGroup().addTo(map);
 const addMarkers = () => {
+    let num = 0;
     for (element of coordinates) {
-        let num = 0;
+        
         for (mark of element) {
             L.marker(mark.cord, mark.icon)
                 .addTo(markerGroup)
@@ -136,7 +137,7 @@ const addMarkers = () => {
         <a href="tel:${mark.tel}">${mark.tel}</a>
         </section>`);
         }
-        num++
+        num ++;
     }
 };
 addMarkers();

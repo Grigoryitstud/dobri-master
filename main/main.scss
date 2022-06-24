@@ -264,7 +264,7 @@ body {
                             }
 
                             @media screen and (max-width: 480px) {
-                                font-size: 10px;
+                                font-size: 9px;
                                 margin-left: 10px;
                             }
 
@@ -366,6 +366,12 @@ body {
                             height: auto;
                         }
                     }
+                    .icon__inner {
+                        display: none;
+                        &.active {
+                            display: block;
+                        }
+                    }
                     .icon__info {
                         border-radius: 680px;
                         background-color: $active-color;
@@ -442,6 +448,7 @@ body {
                         padding: 3px;
                         border-radius: 10px;
                         text-decoration: none;
+                        text-align: center;
                     }
                 }
 
