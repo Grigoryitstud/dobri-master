@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
         integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
         crossorigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:ital,wght@0,400;1,300&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
         integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
         crossorigin=""></script>
@@ -19,15 +20,14 @@
     <div class="main__container">
         <div class="container">
             <div class="header">
-                <img class="header__icon" src="../img/logo.png" alt="">
+                <h2 id="0" class="header__link active">ГЛАВНАЯ</h2>
                 <div class="header__nav">
                     <div class="header__title">
-                        <h2 id="0" class="header__link active">ГЛАВНАЯ</h2>
                         <h2 id="1" class="header__link">СТОРОИТЕЛЬСТВО</h2>
                         <h2 id="2" class="header__link">АВТО</h2>
                         <h2 id="3" class="header__link">КРАСОТА</h2>
                         <h2 id="4" class="header__link">ДОСУГ</h2>
-                        <h2 id="5" class="header__link">ДРУГИЕ УСЛУГИ</h2>
+                        <h2 id="5" class="header__link">ДРУГОЕ</h2>
                     </div>
                     <div class="header__subtitle" id="header__subtitle">
                         <h3 id="0" class="sub__link blu">ИСКУССТВО</h3>
@@ -35,6 +35,45 @@
                         <h3 id="2" class="sub__link gol">ФИНАНСЫ</h3>
                         <h3 id="3" class="sub__link r">ДРУГОЕ</h3>
                     </div>
+                </div>
+            </div>
+            <div class="mainPages active">
+                <h1 class="intro__titles">
+                    выбирай из лучших
+                </h1>
+                <div class="intro__subtitles">
+                    <p>мы потрудились</p>
+                    <p>что-бы выбрать лучших</p>
+                </div>
+
+                <div class="icon">
+                    <img class="icon__logo" src="../img/allTogether.png" alt="" />
+                    <p class="icon__inner">имея большой опыт оказания качественных услуг
+                        мы объединились в сообщество людей делающих свою работу от души</p>
+                </div>
+
+                <div class="icon">
+                    <img class="icon__logo" src="../img/pay.png" alt="" />
+                    <p class="icon__inner">
+                        единый принцип расчётов
+                    </p>
+                    <button class="icon__info">ИНФО</button>
+                </div>
+
+                <div class="icon">
+                    <img class="icon__logo" src="../img/cost.png" alt="" />
+                    <p class="icon__inner">
+                        единый прайс цен
+                    </p>
+                    <button class="icon__info">ИНФО</button>
+                </div>
+
+                <div class="icon">
+                    <img class="icon__logo" src="../img/byYourself.png" alt="" />
+                    <p class="icon__inner">
+                        проверенные временем и делами
+                    </p>
+                    <button class="icon__info">ИНФО</button>
                 </div>
             </div>
             <div id="map"></div>
@@ -49,28 +88,28 @@
                         <img class="object__photo active" src="../img/auto1.jpg" alt="">
                         <img class="object__photo" src="../img/auto1.jpg" alt="">
                         <img class="object__photo" src="../img/auto1.jpg" alt="">
-                        
+
                     </div>
                     <div class="object">
                         <img class="object__photo active" src="../img/auto1.jpg" alt="">
                         <img class="object__photo" src="../img/auto1.jpg" alt="">
                         <img class="object__photo" src="../img/auto1.jpg" alt="">
-                       
+
                     </div>
                     <div class="object">
                         <img class="object__photo active" src="../img/auto1.jpg" alt="">
                         <img class="object__photo" src="../img/auto1.jpg" alt="">
                         <img class="object__photo" src="../img/auto1.jpg" alt="">
-                        
+
                     </div>
                     <div id="btn-prev"></div>
-                    <div id="btn-next"></div>                                     
+                    <div id="btn-next"></div>
                 </div>
                 <div class="dots-wrapper">
                     <span id="0" class="dot active"></span>
                     <span id="1" class="dot"></span>
                     <span id="2" class="dot"></span>
-                </div> 
+                </div>
             </div>
         </div>
     </div>

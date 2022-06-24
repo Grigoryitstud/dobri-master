@@ -4,6 +4,7 @@ const header__links = document.getElementsByClassName('header__link'),
     person__data = document.getElementsByClassName('person__data'),
     header__subtitle = document.getElementById('header__subtitle'),
     person = document.getElementById('person'),
+    mainPages = document.querySelector('.mainPages'),
     sub__link = document.getElementsByClassName('sub__link');
 
 const greenIcon = new L.Icon({
@@ -78,7 +79,7 @@ const coordinates = [
         { id: "8", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: blueIcon }, cord: [52.465, 31.014], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'нарды ручной работы' },
         { id: "44", name: "Ф.Скорына", tel: "375(94)752-18-31", icon: { icon: redIcon }, cord: [52.359, 31.019], photos: ['../img/auto1.jpg', '../img/auto2.jpg', '../img/beauty1.jpg', '../img/beauty2.jpg', '../img/build1.jpg', '../img/build2.jpg', '../img/fishing.jpg', '../img/handmade.png', '../img/Streetfood.jpg'], img: '../img/img/gomel.jpg', text: 'няня' }
     ]
-]
+];
 const pagesContent = [
     Build = [
         { id: "1", name: 'ОТДЕЛОЧНЫЕ' },
@@ -111,9 +112,9 @@ const pagesContent = [
         { id: "4", name: 'ДРУГОЕ' }
     ]
 
-]
-console.log(coordinates)
-const center = [52.4345, 30.9754]
+];
+
+const center = [52.4345, 30.9754];
 
 const map = L.map('map').setView(center, 12);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -122,17 +123,33 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(map);
 const markerGroup = L.layerGroup().addTo(map);
+const addMarkers = () => {
+    for (element of coordinates) {
+        let num = 0;
+        for (mark of element) {
+            L.marker(mark.cord, mark.icon)
+                .addTo(markerGroup)
+                .bindPopup(
+                    `<section id="${mark.id}" class="${num}"> 
+        <p class="pop__into">${mark.name}</p>
+        <p>${mark.text}</p>
+        <a href="tel:${mark.tel}">${mark.tel}</a>
+        </section>`);
+        }
+        num++
+    }
+};
+addMarkers();
+
 
 
 const changePage = (num) => {
-    if (num > 0) {
-        header__subtitle.classList.add("active")
-        let n = 0;
-        for (page of sub__link) {
-            page.innerHTML = pagesContent[num - 1][n].name;
-            n++;
-        }
-    } else header__subtitle.classList.remove("active")
+    header__subtitle.classList.add("active")
+    let n = 0;
+    for (page of sub__link) {
+        page.innerHTML = pagesContent[num - 1][n].name;
+        n++;
+    }
 
 }
 const changeSubClass = (el) => {
@@ -163,26 +180,35 @@ const moreInfo = (pag, sun) => {
         photo.src = photos[n];
         n++
     };
-    person.classList.add('active')   
+    person.classList.add('active')
 }
 
 const changeClass = (el) => {
     markerGroup.clearLayers()
-    // markerGroup.forEach.removeLayer()
     let num = el.target.id
-    for (link of header__links) {
-        link.classList.remove("active")
-    }
-    header__links[num].classList.add("active")
-    changePage(num);
-    // var markersLayer = L.featureGroup().addTo(map);
-    if (num > 0) {
+    if (num == 0) {
+        header__subtitle.classList.remove("active")
+        mainPages.classList.add('active')
+        for (link of header__links) {
+            link.classList.remove("active")
+        };
+        person.classList.remove('active')
+        header__links[0].classList.add("active")
+        addMarkers();
+    } else {
+        mainPages.classList.remove('active')
+        for (link of header__links) {
+            link.classList.remove("active")
+        }
+        header__links[num].classList.add("active")
+
+        changePage(num);
         for (mark of coordinates[num - 1]) {
             L.marker(mark.cord, mark.icon)
                 .addTo(markerGroup)
                 // .on('click', markerOnClick(mark))
                 .bindPopup(
-                `<section id="${mark.id}" class="${num - 1}"> 
+                    `<section id="${mark.id}" class="${num - 1}"> 
                 <p class="pop__into">${mark.name}</p>
                 <p>${mark.text}</p>
                 <a href="tel:${mark.tel}">${mark.tel}</a>
@@ -199,17 +225,6 @@ var _bindPopupClick = function (e) {
     }
 }
 map.on('popupopen', _bindPopupClick)
-
-// function(el){
-//     console.log(el)
-//     person.classList.add('active')
-//     let n = 0;
-//     // object__photo[0].src = '../img/auto1.jpg';
-//      for (photo of object__photo) {
-//         photo.src = coordinates[0][0].photos[n];
-//         n++
-//     };
-// })
 for (link of header__links) {
     link.addEventListener('click', link => changeClass(link))
-};
+}
